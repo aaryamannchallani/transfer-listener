@@ -9,6 +9,7 @@
   "main": "producer.js",
   "devDependencies": {},
   "scripts": {
+    "start": "node producer.js & node consumer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
